@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+
+{% block header %}
+{% if refreshtimeout > 0 %}
+	<meta http-equiv="refresh" content="{{refreshtimeout}}" />
+{% endif %}
+<style>
+	.table td,
+	.table th {
+		align: middle;
+	}
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+	<h5>Elenco presenti in sede per il giorno {{considereddate}}</h5>
+</div>
+<div class="container mt-5">
+	<table class="table">
+		<thead>
+			<tr>
+				<th>Nome</th>
+				<th class="text-center">Dettagli</th>
+				<th class="text-center">Stato</th>
+				{% if showdetails %}
+					{% for d in data[0][6:] %}
+						<th class="text-center">&nbsp;</td>
+					{% endfor %}
+				{% endif %}
+			</tr>
+		</thead>
+		<tbody>
+		{%for p in data%}
+			<tr>
+				<td><a href="mailto:{{p[1]}}">{{p[0]}}</a></td>
+				<td class="text-center"><a href="{{p[3]}}" target="_new">{{p[2]}}</a></td>
+				<td class="text-center"><div class="badge badge-{{p[4]}} text-wrap" style="width:6rem;">{{p[5]}}</div>
+				{% if showdetails %}
+					{% for d in p[6:] %}
+						<td class="text-center">{{d}}</td>
+					{% endfor %}
+				{% endif %}
+			</tr>
+		{% endfor %}
+		</tbody>
+	</table>
+</div>
+{% endblock %}

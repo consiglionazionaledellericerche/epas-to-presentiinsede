@@ -1,0 +1,48 @@
+# This repository adheres to the publiccode.yml standard by including this 
+# metadata file that makes public software easily discoverable.
+# More info at https://github.com/italia/publiccode.yml
+
+publiccodeYmlVersion: '0.2'
+name: epas-to-presentiinsede
+releaseDate: '2023-06-05'
+url: 'https://github.com/consiglionazionaledellericerche/epas-to-presentiinsede'
+developmentStatus: beta
+softwareType: standalone/web
+platforms:
+  - web
+categories:
+  - facility-management
+  - resource-management
+roadmap: 'https://github.com/consiglionazionaledellericerche/epas-to-presentiinsede/projects/1'
+intendedAudience:
+  countries:
+    - IT
+  scope:
+    - infrastructures
+    - security
+description:
+  it:
+    localisedName: epas-to-presentiinsede
+    genericName: epas-to-presentiinsede
+    shortDescription: Mostra gli utenti presenti in sede nella giornata odierna, tramite integrazione con la piattaforma ePAS.
+    longDescription: Questo programma offre la possibilità di attivare un servizio web in grado di ottenere informazioni sugli utenti presenti in una determinata sede, sfruttando integrazione con la piattaforma electronic Personnel Attendance System (ePAS). In particolare, l'utilità nasce nei confronti di servizi di portineria e guardianaggio, al fine di permettere loro di visualizzare chi è presente in sede in un determinato momento.
+    documentation: 'https://github.com/consiglionazionaledellericerche/epas-to-presentiinsede'
+    features:
+      - Accesso e consultazione dei dati tramite interfaccia web
+      - Integrazione con la piattaforma ePAS
+      - Supporto a più istituti per la stessa sede
+      - Deployment sotto forma di container Docker
+      - Possibilità di nascondere i dettagli orari di entrata/uscita dei dipendenti
+      - Supporto a configurazione in formato YAML
+legal:
+  license: MIT
+maintenance:
+  type: internal
+  contacts:
+    - name: Enrico Cambiaso
+      email: enrico.cambiaso@cnr.it
+      affiliation: Consiglio Nazionale delle Ricerche - Istituto IEIIT
+localisation:
+  localisationReady: false
+  availableLanguages:
+    - it

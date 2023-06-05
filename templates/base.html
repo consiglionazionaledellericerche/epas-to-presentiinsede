@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Controllo personale presente</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	{% block header %} {% endblock %}
+</head>
+<body>
+
+<header class="bg-dark text-white">
+	<div class="container">
+		<div class="row">
+			<div class="col">
+				<h1>Controllo personale presente</h1>
+			</div>
+			<div class="col d-flex justify-content-end align-items-center">
+				{%if session['loggedin'] %}
+					<a href="{{url_for('logout')}}" class="btn btn-info">Logout</a>
+				{%endif%}
+			</div>
+		</div>
+	</div>
+</header>
+
+<div class="container mt-5">
+	{% block content %} {% endblock %}
+</div>
+
+<div class="navbar fixed-bottom bg-dark text-center">
+	<div class="text-center p-1">
+		<a href="https://github.com/auino/epas-to-presentiinsede" class="link-light" target="_new">GitHub</a>
+	</div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</body>
+</html>
