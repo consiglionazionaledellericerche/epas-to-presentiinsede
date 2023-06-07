@@ -13,7 +13,7 @@ platforms:
 categories:
   - facility-management
   - resource-management
-roadmap: 'https://github.com/consiglionazionaledellericerche/epas-to-presentiinsede/projects/1'
+roadmap: 'https://github.com/orgs/consiglionazionaledellericerche/projects/4'
 intendedAudience:
   countries:
     - IT
@@ -25,7 +25,8 @@ description:
     localisedName: epas-to-presentiinsede
     genericName: epas-to-presentiinsede
     shortDescription: Mostra gli utenti presenti in sede nella giornata odierna, tramite integrazione con la piattaforma ePAS.
-    longDescription: Questo programma offre la possibilità di attivare un servizio web in grado di ottenere informazioni sugli utenti presenti in una determinata sede, sfruttando integrazione con la piattaforma electronic Personnel Attendance System (ePAS). In particolare, l'utilità nasce nei confronti di servizi di portineria e guardianaggio, al fine di permettere loro di visualizzare chi è presente in sede in un determinato momento.
+    longDescription: Questo programma offre la possibilità di attivare un servizio web in grado di ottenere informazioni sugli utenti presenti in una determinata sede, sfruttando integrazione con la piattaforma electronic Personnel Attendance System (ePAS). In particolare, l'utilità nasce nei confronti di servizi di portineria e guardianaggio, per motivi di sicurezza, al fine di permettere loro di visualizzare chi è 
+presente in sede in un determinato momento. Il sistema supporta più istituti all'interno della stessa sede.
     documentation: 'https://github.com/consiglionazionaledellericerche/epas-to-presentiinsede'
     features:
       - Accesso e consultazione dei dati tramite interfaccia web
