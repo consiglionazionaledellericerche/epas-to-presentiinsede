@@ -92,16 +92,7 @@ In base alla configurazione scelta in fase di installazione, tale pagina viene a
 
 ### Possibili miglioramenti ###
 
-Si riportano, a titolo non esaustivo, i seguenti punti di miglioramento:
-* miglioramento del sistema di memorizzazione delle credenziali utenti, utilizzando ad esempio un database con password cifrate, hash delle password (con eventuale salting), ecc.
-* integrazione con SIPER per la gestione delle credenziali
-* associazione di un utente ad una o più posizioni fisiche, al fine di poter utilizzare un singolo servizio per diverse sedi
-* aggiungere il supporto alla memorizzazione di personale esterno (es. ospiti)
-* migliorare la gestione delle credenziali e delle variabili di sessione
-* aggiungere la possibilità di non mostrare dettagli sulle singole persone, ma mostrare informazioni aggregate
-* aggiungere la possibilità di identificare se una persona è probabilmente uscita, sulla base di eventuali errori di timbratura
-* migliorare la gestione degli errori, dovuti ad esempio ad un eccessivo numero di richieste nei confronti di [ePAS](https://epas.projects.iit.cnr.it)
-* aggiungere in modo visibile per l'utente la data di ultimo aggiornamento della pagina web che mostra la lista di utenti presenti in sede
+Consultare la [roadmap del progetto](https://github.com/orgs/consiglionazionaledellericerche/projects/4).
 
 ### Contatti ###
 
