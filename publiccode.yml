@@ -2,7 +2,7 @@
 # metadata file that makes public software easily discoverable.
 # More info at https://github.com/italia/publiccode.yml
 
-publiccodeYmlVersion: '0.2'
+publiccodeYmlVersion: '0.3'
 name: epas-to-presentiinsede
 releaseDate: '2023-06-05'
 url: 'https://github.com/consiglionazionaledellericerche/epas-to-presentiinsede'
@@ -16,7 +16,7 @@ categories:
 roadmap: 'https://github.com/orgs/consiglionazionaledellericerche/projects/4'
 intendedAudience:
   countries:
-    - IT
+    - it
   scope:
     - infrastructures
     - security
